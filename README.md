@@ -65,3 +65,6 @@ git add .
 git commit -m "using deploy-pages Github Actions"
 git push
 ```
+
+Aplicación desplegada de forma automática en Github Pages con Github Actions:
+[https://cbsumastre.github.io/cloud-laboratorio-gh-pages-autom/](https://cbsumastre.github.io/cloud-laboratorio-gh-pages-autom/)
