@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
   envPrefix: 'PUBLIC_',
-  // base: '/cloud-laboratorio-gh-pages-manual/',
+  base: '/cloud-laboratorio-gh-pages-manual/',
   esbuild: mode === 'production' ? { drop: ['console', 'debugger'] } : {},
   plugins: [vue(), vueDevTools()],
   resolve: {
