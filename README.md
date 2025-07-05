@@ -13,11 +13,11 @@ _Para simplificar la entrega de los ejercicios podéis crear un repositorio por 
 
 _Es importante saber que Github necesita que los workflows estén en la ruta raiz del proyecto en la carpeta .github/workflows_
 
-Pasos a realizar para desplegar en Github Pages con Github Actions:
+### Para poder desplegar automáticamente en Github Pages con Github Actions:
 
 - En el repo en **Settings** -> **Pages** hay que cambiar _"Deploy from a branch"_ por _"GitHub Actions"_
 
-- Crear el workflow
+- Crear el workflow en:
 
 _.github/workflows/cd.yml_
 
